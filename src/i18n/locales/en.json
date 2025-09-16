@@ -1,0 +1,79 @@
+{
+  "app": {
+    "title": "QR Code Generator",
+    "subtitle": "Generate QR codes with custom logos in the center",
+    "developedWith": "Developed with ❤️"
+  },
+  "header": {
+    "title": "QR Code Generator",
+    "subtitle": "Generate QR codes with custom logos in the center"
+  },
+  "form": {
+    "title": "QR Configuration",
+    "dataLabel": "Text/URL for QR:",
+    "dataPlaceholder": "Enter text or URL for QR...",
+    "logoLabel": "Logo (optional):",
+    "logoPlaceholder": "Select logo",
+    "outputFormatLabel": "Output format:",
+    "advancedOptions": "Advanced Options",
+    "errorCorrectionLabel": "Error correction:",
+    "boxSizeLabel": "Box size:",
+    "borderLabel": "Border:",
+    "logoSettings": "Logo Settings",
+    "logoSizeLabel": "Logo size (%):",
+    "logoSizeHint": "Max 30% as per requirements",
+    "logoPaddingLabel": "White space (px):",
+    "logoPaddingHint": "For large QR codes (min 1000x1000px)",
+    "previewButton": "Preview",
+    "generateButton": "Generate QR",
+    "errorCorrection": {
+      "L": "L (7%)",
+      "M": "M (15%)",
+      "Q": "Q (25%)",
+      "H": "H (30%)"
+    },
+    "outputFormat": {
+      "PNG": "PNG",
+      "JPEG": "JPEG",
+      "BMP": "BMP"
+    }
+  },
+  "preview": {
+    "title": "QR Code Preview",
+    "placeholder": "Generate a QR for preview",
+    "generating": "Generating...",
+    "download": "Download",
+    "downloadQR": "Download QR",
+    "copyImage": "Copy Image"
+  },
+  "alerts": {
+    "enterText": "Please enter text for QR code",
+    "previewGenerated": "Preview generated successfully!",
+    "qrGenerated": "QR generated successfully!",
+    "imageCopied": "Image copied to clipboard!",
+    "failedToCopy": "Failed to copy image to clipboard",
+    "noImageToCopy": "No image to copy!",
+    "connectionError": "Connection error:",
+    "previewError": "Error generating preview",
+    "generationError": "Error generating QR code"
+  },
+  "theme": {
+    "light": "Light mode",
+    "dark": "Dark mode",
+    "switchTo": "Switch to"
+  },
+  "language": {
+    "select": "Select Language",
+    "english": "English",
+    "german": "Deutsch",
+    "french": "Français"
+  },
+  "seo": {
+    "title": "QR Code Generator - Create QR Codes with Custom Logos | Free Online Tool",
+    "description": "Generate professional QR codes with custom logos instantly. Free online QR code generator with advanced customization options, dark/light themes, and multiple export formats.",
+    "keywords": "QR code generator, QR code with logo, free QR code, online QR generator, custom QR code, QR code maker, QR code creator, business QR code, professional QR code"
+  },
+  "storage": {
+    "settingsExpire": "Settings expire in"
+  }
+}

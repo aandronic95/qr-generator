@@ -22,7 +22,7 @@ export const generateQRCode = async (
   }
 
   const qrOptions = {
-    errorCorrectionLevel: config.errorCorrection.toLowerCase() as 'l' | 'm' | 'q' | 'h',
+    errorCorrectionLevel: config.errorCorrection as 'L' | 'M' | 'Q' | 'H',
     margin: config.border,
     color: {
       dark: '#000000',
@@ -34,7 +34,7 @@ export const generateQRCode = async (
   try {
     const qrDataURL = await QRCode.toDataURL(data, qrOptions)
     
-    return new Promise((resolve, reject) => {
+    return new Promise<string>((resolve, reject) => {
       const img = new Image()
       img.onload = async () => {
         try {

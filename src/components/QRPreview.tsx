@@ -1,11 +1,11 @@
 import React from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { useSelector } from 'react-redux'
+import { useTranslation } from 'react-i18next'
 import { RootState } from '../store'
-import { setGeneratedImage } from '../store/slices/qrSlice'
 import { downloadQRCode, copyToClipboard } from '../utils/qrGenerator'
 
 const QRPreview: React.FC = () => {
-  const dispatch = useDispatch()
+  const { t } = useTranslation()
   const { generatedImage, isLoading, outputFormat } = useSelector((state: RootState) => state.qr)
 
   const handleDownload = () => {
@@ -19,9 +19,9 @@ const QRPreview: React.FC = () => {
     if (generatedImage) {
       try {
         await copyToClipboard(generatedImage)
-        alert('Image copied to clipboard!')
+        alert(t('alerts.imageCopied'))
       } catch (error) {
-        alert('Failed to copy image to clipboard')
+        alert(t('alerts.failedToCopy'))
       }
     }
   }
@@ -30,14 +30,14 @@ const QRPreview: React.FC = () => {
     <div className="preview-section">
       <h2>
         <i className="fas fa-image"></i>
-        QR Code Preview
+        {t('preview.title')}
       </h2>
 
       <div className="preview-container">
         {isLoading ? (
           <div className="loading">
             <div className="spinner"></div>
-            <div>Generating...</div>
+            <div>{t('preview.generating')}</div>
           </div>
         ) : generatedImage ? (
           <img
@@ -48,7 +48,7 @@ const QRPreview: React.FC = () => {
         ) : (
           <div className="preview-placeholder">
             <i className="fas fa-qrcode"></i>
-            <div>Generate a QR for preview</div>
+            <div>{t('preview.placeholder')}</div>
           </div>
         )}
       </div>
@@ -57,16 +57,16 @@ const QRPreview: React.FC = () => {
         <div className="download-section">
           <h3>
             <i className="fas fa-download"></i>
-            Download
+            {t('preview.download')}
           </h3>
           <div className="download-buttons">
             <button className="btn-download" onClick={handleDownload}>
               <i className="fas fa-download"></i>
-              Download QR
+              {t('preview.downloadQR')}
             </button>
             <button className="btn-download" onClick={handleCopy}>
               <i className="fas fa-copy"></i>
-              Copy Image
+              {t('preview.copyImage')}
             </button>
           </div>
         </div>

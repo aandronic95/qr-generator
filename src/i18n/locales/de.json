@@ -1,0 +1,79 @@
+{
+  "app": {
+    "title": "QR-Code-Generator",
+    "subtitle": "Generieren Sie QR-Codes mit benutzerdefinierten Logos in der Mitte",
+    "developedWith": "Entwickelt mit ❤️"
+  },
+  "header": {
+    "title": "QR-Code-Generator",
+    "subtitle": "Generieren Sie QR-Codes mit benutzerdefinierten Logos in der Mitte"
+  },
+  "form": {
+    "title": "QR-Konfiguration",
+    "dataLabel": "Text/URL für QR:",
+    "dataPlaceholder": "Geben Sie Text oder URL für QR ein...",
+    "logoLabel": "Logo (optional):",
+    "logoPlaceholder": "Logo auswählen",
+    "outputFormatLabel": "Ausgabeformat:",
+    "advancedOptions": "Erweiterte Optionen",
+    "errorCorrectionLabel": "Fehlerkorrektur:",
+    "boxSizeLabel": "Box-Größe:",
+    "borderLabel": "Rahmen:",
+    "logoSettings": "Logo-Einstellungen",
+    "logoSizeLabel": "Logo-Größe (%):",
+    "logoSizeHint": "Max. 30% gemäß Anforderungen",
+    "logoPaddingLabel": "Weißer Raum (px):",
+    "logoPaddingHint": "Für große QR-Codes (min. 1000x1000px)",
+    "previewButton": "Vorschau",
+    "generateButton": "QR generieren",
+    "errorCorrection": {
+      "L": "L (7%)",
+      "M": "M (15%)",
+      "Q": "Q (25%)",
+      "H": "H (30%)"
+    },
+    "outputFormat": {
+      "PNG": "PNG",
+      "JPEG": "JPEG",
+      "BMP": "BMP"
+    }
+  },
+  "preview": {
+    "title": "QR-Code-Vorschau",
+    "placeholder": "Generieren Sie einen QR für die Vorschau",
+    "generating": "Wird generiert...",
+    "download": "Download",
+    "downloadQR": "QR herunterladen",
+    "copyImage": "Bild kopieren"
+  },
+  "alerts": {
+    "enterText": "Bitte geben Sie Text für QR-Code ein",
+    "previewGenerated": "Vorschau erfolgreich generiert!",
+    "qrGenerated": "QR erfolgreich generiert!",
+    "imageCopied": "Bild in die Zwischenablage kopiert!",
+    "failedToCopy": "Bild konnte nicht in die Zwischenablage kopiert werden",
+    "noImageToCopy": "Kein Bild zum Kopieren!",
+    "connectionError": "Verbindungsfehler:",
+    "previewError": "Fehler beim Generieren der Vorschau",
+    "generationError": "Fehler beim Generieren des QR-Codes"
+  },
+  "theme": {
+    "light": "Heller Modus",
+    "dark": "Dunkler Modus",
+    "switchTo": "Wechseln zu"
+  },
+  "language": {
+    "select": "Sprache auswählen",
+    "english": "English",
+    "german": "Deutsch",
+    "french": "Français"
+  },
+  "seo": {
+    "title": "QR-Code-Generator - Erstellen Sie QR-Codes mit benutzerdefinierten Logos | Kostenloses Online-Tool",
+    "description": "Generieren Sie professionelle QR-Codes mit benutzerdefinierten Logos sofort. Kostenloser Online-QR-Code-Generator mit erweiterten Anpassungsoptionen, dunklen/hellen Themes und mehreren Exportformaten.",
+    "keywords": "QR-Code-Generator, QR-Code mit Logo, kostenloser QR-Code, Online-QR-Generator, benutzerdefinierter QR-Code, QR-Code-Ersteller, Geschäfts-QR-Code, professioneller QR-Code"
+  },
+  "storage": {
+    "settingsExpire": "Einstellungen laufen ab in"
+  }
+}

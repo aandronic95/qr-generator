@@ -1,4 +1,4 @@
-export const generateStructuredData = (data: any) => {
+export const generateStructuredData = () => {
   return {
     "@context": "https://schema.org",
     "@type": "WebApplication",
