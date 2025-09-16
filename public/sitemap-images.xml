@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage Images -->
+  <url>
+    <loc>https://qr-generator-react.vercel.app/</loc>
+    <image:image>
+      <image:loc>https://qr-generator-react.vercel.app/og-image.png</image:loc>
+      <image:title>QR Code Generator - Create QR Codes with Custom Logos</image:title>
+      <image:caption>Professional QR code generator with logo support</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://qr-generator-react.vercel.app/favicon-192x192.png</image:loc>
+      <image:title>QR Generator App Icon</image:title>
+      <image:caption>QR Code Generator application icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://qr-generator-react.vercel.app/favicon-512x512.png</image:loc>
+      <image:title>QR Generator App Icon Large</image:title>
+      <image:caption>QR Code Generator application icon large size</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Generator Tool Images -->
+  <url>
+    <loc>https://qr-generator-react.vercel.app/generator</loc>
+    <image:image>
+      <image:loc>https://qr-generator-react.vercel.app/screenshots/generator-tool.png</image:loc>
+      <image:title>QR Generator Tool Interface</image:title>
+      <image:caption>Screenshot of the QR code generator tool interface</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Features Page Images -->
+  <url>
+    <loc>https://qr-generator-react.vercel.app/features</loc>
+    <image:image>
+      <image:loc>https://qr-generator-react.vercel.app/screenshots/features-overview.png</image:loc>
+      <image:title>QR Generator Features Overview</image:title>
+      <image:caption>Overview of all QR generator features and capabilities</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Examples Page Images -->
+  <url>
+    <loc>https://qr-generator-react.vercel.app/examples</loc>
+    <image:image>
+      <image:loc>https://qr-generator-react.vercel.app/examples/business-card-qr.png</image:loc>
+      <image:title>Business Card QR Code Example</image:title>
+      <image:caption>Example QR code for business card with logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://qr-generator-react.vercel.app/examples/restaurant-menu-qr.png</image:loc>
+      <image:title>Restaurant Menu QR Code Example</image:title>
+      <image:caption>Example QR code for restaurant menu</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://qr-generator-react.vercel.app/examples/product-packaging-qr.png</image:loc>
+      <image:title>Product Packaging QR Code Example</image:title>
+      <image:caption>Example QR code for product packaging</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://qr-generator-react.vercel.app/examples/event-ticket-qr.png</image:loc>
+      <image:title>Event Ticket QR Code Example</image:title>
+      <image:caption>Example QR code for event ticket</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- How to Use Guide Images -->
+  <url>
+    <loc>https://qr-generator-react.vercel.app/how-to-use</loc>
+    <image:image>
+      <image:loc>https://qr-generator-react.vercel.app/guides/step-1-enter-data.png</image:loc>
+      <image:title>Step 1: Enter Data for QR Code</image:title>
+      <image:caption>Guide showing how to enter data for QR code generation</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://qr-generator-react.vercel.app/guides/step-2-upload-logo.png</image:loc>
+      <image:title>Step 2: Upload Logo</image:title>
+      <image:caption>Guide showing how to upload a logo for the QR code</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://qr-generator-react.vercel.app/guides/step-3-configure-settings.png</image:loc>
+      <image:title>Step 3: Configure Settings</image:title>
+      <image:caption>Guide showing how to configure QR code settings</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://qr-generator-react.vercel.app/guides/step-4-generate-download.png</image:loc>
+      <image:title>Step 4: Generate and Download</image:title>
+      <image:caption>Guide showing how to generate and download the QR code</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Best Practices Images -->
+  <url>
+    <loc>https://qr-generator-react.vercel.app/best-practices</loc>
+    <image:image>
+      <image:loc>https://qr-generator-react.vercel.app/best-practices/logo-size-comparison.png</image:loc>
+      <image:title>Logo Size Comparison</image:title>
+      <image:caption>Comparison showing optimal logo sizes for QR codes</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://qr-generator-react.vercel.app/best-practices/color-contrast-examples.png</image:loc>
+      <image:title>Color Contrast Examples</image:title>
+      <image:caption>Examples of good and bad color contrast for QR codes</image:caption>
+    </image:image>
+  </url>
+  
+</urlset>

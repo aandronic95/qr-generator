@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Main Sitemap -->
+  <sitemap>
+    <loc>https://qr-generator-react.vercel.app/sitemap.xml</loc>
+    <lastmod>2024-01-15</lastmod>
+  </sitemap>
+  
+  <!-- Images Sitemap -->
+  <sitemap>
+    <loc>https://qr-generator-react.vercel.app/sitemap-images.xml</loc>
+    <lastmod>2024-01-15</lastmod>
+  </sitemap>
+  
+  <!-- News Sitemap (if you plan to add news/blog) -->
+  <sitemap>
+    <loc>https://qr-generator-react.vercel.app/sitemap-news.xml</loc>
+    <lastmod>2024-01-15</lastmod>
+  </sitemap>
+  
+</sitemapindex>

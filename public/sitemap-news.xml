@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  
+  <!-- News Articles (add when you create blog content) -->
+  <url>
+    <loc>https://qr-generator-react.vercel.app/blog/qr-code-trends-2024</loc>
+    <news:news>
+      <news:publication>
+        <news:name>QR Code Generator Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-15</news:publication_date>
+      <news:title>QR Code Trends and Best Practices for 2024</news:title>
+      <news:keywords>QR codes, trends, best practices, 2024, marketing</news:keywords>
+    </news:news>
+  </url>
+  
+  <url>
+    <loc>https://qr-generator-react.vercel.app/blog/how-to-choose-qr-code-error-correction</loc>
+    <news:news>
+      <news:publication>
+        <news:name>QR Code Generator Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-10</news:publication_date>
+      <news:title>How to Choose the Right Error Correction Level for Your QR Code</news:title>
+      <news:keywords>QR code, error correction, scanning, reliability</news:keywords>
+    </news:news>
+  </url>
+  
+  <url>
+    <loc>https://qr-generator-react.vercel.app/blog/qr-codes-in-restaurant-industry</loc>
+    <news:news>
+      <news:publication>
+        <news:name>QR Code Generator Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-05</news:publication_date>
+      <news:title>How QR Codes are Revolutionizing the Restaurant Industry</news:title>
+      <news:keywords>QR codes, restaurant, contactless, menu, dining</news:keywords>
+    </news:news>
+  </url>
+  
+  <url>
+    <loc>https://qr-generator-react.vercel.app/blog/creating-effective-marketing-qr-codes</loc>
+    <news:news>
+      <news:publication>
+        <news:name>QR Code Generator Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-01</news:publication_date>
+      <news:title>Creating Effective Marketing QR Codes: A Complete Guide</news:title>
+      <news:keywords>QR codes, marketing, advertising, campaigns, business</news:keywords>
+    </news:news>
+  </url>
+  
+</urlset>
