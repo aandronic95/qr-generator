@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
   
   return (
     <footer className="footer">
-      <p>&copy; 2024 {t('app.title')} | {t('app.developedWith')}</p>
+      <p>&copy; 2025 {t('app.title')} | {t('app.developedWith')}</p>
     </footer>
   )
 }
