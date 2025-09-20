@@ -1,12 +1,12 @@
 {
   "app": {
     "title": "QR Code Generator",
-    "subtitle": "Generate QR codes with custom logos in the center",
-    "developedWith": "Developed with devhub.md"
+    "subtitle": "Professional QR codes with custom logos - Multi-language support",
+    "developedWith": "Professional QR Code Solution"
   },
   "header": {
     "title": "QR Code Generator",
-    "subtitle": "Generate QR codes with custom logos in the center"
+    "subtitle": "Professional QR codes with custom logos - Multi-language support"
   },
   "form": {
     "title": "QR Configuration",
@@ -66,7 +66,11 @@
     "select": "Select Language",
     "english": "English",
     "german": "Deutsch",
-    "french": "Français"
+    "french": "Français",
+    "spanish": "Español",
+    "italian": "Italiano",
+    "portuguese": "Português",
+    "dutch": "Nederlands"
   },
   "seo": {
     "title": "QR Code Generator - Create QR Codes with Custom Logos | Free Online Tool",

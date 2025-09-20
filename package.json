@@ -1,30 +1,49 @@
 {
-  "name": "qr-generator-react",
+  "name": "qr-code-generator-multilang",
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "description": "Professional QR Code Generator with Multi-language Support - React TypeScript",
+  "keywords": [
+    "qr-code",
+    "generator",
+    "react",
+    "typescript",
+    "multi-language",
+    "custom-logo",
+    "responsive",
+    "seo",
+    "dark-theme",
+    "mobile-friendly"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "homepage": "https://your-domain.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/qr-generator.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^2.0.1",
-    "html2canvas": "^1.4.1",
-    "i18next": "^25.5.2",
-    "i18next-browser-languagedetector": "^8.2.0",
-    "qrcode": "^1.5.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-helmet-async": "^2.0.5",
-    "react-i18next": "^15.7.3",
-    "react-redux": "^9.0.4"
+    "react-i18next": "^13.5.0",
+    "i18next": "^23.7.6",
+    "i18next-browser-languagedetector": "^7.2.0",
+    "@reduxjs/toolkit": "^2.0.1",
+    "react-redux": "^9.0.4",
+    "qrcode": "^1.5.3"
   },
   "devDependencies": {
-    "@types/qrcode": "^1.5.5",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
+    "@types/qrcode": "^1.5.5",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
     "@typescript-eslint/parser": "^6.14.0",
     "@vitejs/plugin-react": "^4.2.1",
@@ -33,5 +52,21 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

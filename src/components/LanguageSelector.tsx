@@ -7,7 +7,11 @@ const LanguageSelector: React.FC = () => {
   const languages = [
     { code: 'en', name: t('language.english'), flag: '🇺🇸' },
     { code: 'de', name: t('language.german'), flag: '🇩🇪' },
-    { code: 'fr', name: t('language.french'), flag: '🇫🇷' }
+    { code: 'fr', name: t('language.french'), flag: '🇫🇷' },
+    { code: 'es', name: t('language.spanish'), flag: '🇪🇸' },
+    { code: 'it', name: t('language.italian'), flag: '🇮🇹' },
+    { code: 'pt', name: t('language.portuguese'), flag: '🇵🇹' },
+    { code: 'nl', name: t('language.dutch'), flag: '🇳🇱' }
   ]
 
   const handleLanguageChange = (languageCode: string) => {

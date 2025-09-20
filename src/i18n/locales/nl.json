@@ -1,0 +1,83 @@
+{
+  "app": {
+    "title": "QR Code Generator",
+    "subtitle": "Genereer QR codes met aangepaste logo's in het midden",
+    "developedWith": "Ontwikkeld met devhub.md"
+  },
+  "header": {
+    "title": "QR Code Generator",
+    "subtitle": "Genereer QR codes met aangepaste logo's in het midden"
+  },
+  "form": {
+    "title": "QR Configuratie",
+    "dataLabel": "Tekst/URL voor QR:",
+    "dataPlaceholder": "Voer tekst of URL in voor QR...",
+    "logoLabel": "Logo (optioneel):",
+    "logoPlaceholder": "Selecteer logo",
+    "outputFormatLabel": "Uitvoerformaat:",
+    "advancedOptions": "Geavanceerde Opties",
+    "errorCorrectionLabel": "Foutcorrectie:",
+    "boxSizeLabel": "Box grootte:",
+    "borderLabel": "Rand:",
+    "logoSettings": "Logo Instellingen",
+    "logoSizeLabel": "Logo grootte (%):",
+    "logoSizeHint": "Max 30% volgens vereisten",
+    "logoPaddingLabel": "Witruimte (px):",
+    "logoPaddingHint": "Voor grote QR codes (min 1000x1000px)",
+    "previewButton": "Voorbeeld",
+    "generateButton": "Genereer QR",
+    "errorCorrection": {
+      "L": "L (7%)",
+      "M": "M (15%)",
+      "Q": "Q (25%)",
+      "H": "H (30%)"
+    },
+    "outputFormat": {
+      "PNG": "PNG",
+      "JPEG": "JPEG",
+      "BMP": "BMP"
+    }
+  },
+  "preview": {
+    "title": "QR Code Voorbeeld",
+    "placeholder": "Genereer een QR voor voorbeeld",
+    "generating": "Genereren...",
+    "download": "Downloaden",
+    "downloadQR": "QR Downloaden",
+    "copyImage": "Afbeelding Kopiëren"
+  },
+  "alerts": {
+    "enterText": "Voer tekst in voor QR code",
+    "previewGenerated": "Voorbeeld succesvol gegenereerd!",
+    "qrGenerated": "QR succesvol gegenereerd!",
+    "imageCopied": "Afbeelding gekopieerd naar klembord!",
+    "failedToCopy": "Kon afbeelding niet kopiëren naar klembord",
+    "noImageToCopy": "Geen afbeelding om te kopiëren!",
+    "connectionError": "Verbindingsfout:",
+    "previewError": "Fout bij genereren voorbeeld",
+    "generationError": "Fout bij genereren QR code"
+  },
+  "theme": {
+    "light": "Lichte modus",
+    "dark": "Donkere modus",
+    "switchTo": "Overschakelen naar"
+  },
+  "language": {
+    "select": "Selecteer Taal",
+    "english": "English",
+    "german": "Deutsch",
+    "french": "Français",
+    "spanish": "Español",
+    "italian": "Italiano",
+    "portuguese": "Português",
+    "dutch": "Nederlands"
+  },
+  "seo": {
+    "title": "QR Code Generator - Maak QR Codes met Aangepaste Logo's | Gratis Online Tool",
+    "description": "Genereer professionele QR codes met aangepaste logo's direct. Gratis online QR code generator met geavanceerde aanpassingsopties, donkere/lichte thema's en meerdere exportformaten.",
+    "keywords": "QR code generator, QR code met logo, gratis QR code, online QR generator, aangepaste QR code, QR code maker, QR code creator, zakelijke QR code, professionele QR code"
+  },
+  "storage": {
+    "settingsExpire": "Instellingen verlopen over"
+  }
+}
